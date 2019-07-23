@@ -1,9 +1,14 @@
 * {
-    box-sizing: border-box;
+    box-sizing: content-box;
   }
   
   body {
+    max-width: 960px;
+    min-width: auto;
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    border: 1px solid black;
+    box-align: center;
   }
   
   button, input[type="text"] {
@@ -11,7 +16,7 @@
   }
   
   button:hover {
-    cursor: pointer;
+    cursor: crosshair;
   }
   
   .hidden {
