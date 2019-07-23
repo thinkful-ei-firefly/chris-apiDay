@@ -1,16 +1,32 @@
 * {
+    margin: auto;
+    padding: auto;
     box-sizing: content-box;
   }
   
   body {
+    word-spacing: 0.1em;
+    border-spacing: 4.2em;
+    padding-top: 20px,;
+    padding-left: 20px;
     max-width: 960px;
     min-width: auto;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-    border: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 0; 
+    border-bottom: 0px:
     box-align: center;
   }
   
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
   button, input[type="text"] {
     padding: 5px;
   }
@@ -25,11 +41,14 @@
   
   #shopping-list-item {
     width: 250px;
+
   }
   
   .container {
     max-width: 600px;
     margin: 0 auto;
+    color: green;
+    font-weight: 700;
   }
   
   .shopping-list {
@@ -41,6 +60,7 @@
     margin-bottom: 20px;
     border: 1px solid grey;
     padding: 20px;
+    color: aqua;
   }
   
   .shopping-item {
